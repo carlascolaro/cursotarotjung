@@ -85,6 +85,20 @@ nav a:hover {
     color: var(--color-lila);
 }
 
+nav a.nav-link-external {
+    color: var(--color-lila);
+    font-weight: 600;
+    padding: 8px 16px;
+    border: 2px solid var(--color-lila);
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+nav a.nav-link-external:hover {
+    background-color: var(--color-lila);
+    color: white;
+}
+
 .menu-toggle {
     display: none;
     background: none;
